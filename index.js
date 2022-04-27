@@ -220,7 +220,7 @@ function processEventQueue() {
         console.log(eventQueue.length)
 
         // Todo:
-        // [X] Event duration 
+        // [ ] Event duration 
         // [X] Litter box ID
         // [X] Group events together that are within a few seconds of each other
         // [ ] Any other processing/statistical analysis? (most of that can prob be better done in tableau)
@@ -251,7 +251,7 @@ function processEventQueue() {
             printMap(eventMap)
         }
 
-        // Process cat arrays
+        // Process cat arrays and push up the time differences
 
 
     }
