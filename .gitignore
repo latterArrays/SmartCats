@@ -1,0 +1,15 @@
+#node
+node_modules
+package-lock.json
+
+#Arduino secrets
+Arduino Sketch/wifimkr1000_sketch/arduino_secrets.h
+
+#Google secrets
+gCredentials.json
+
+#Environment
+.env
+
+#Mac OS
+.DS_Store
