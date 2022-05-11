@@ -24,8 +24,6 @@ The node project runs a websocket server that listens for the arduino to communi
 When the arduino board pushes up an event, the node server begins to collect adjacent events, and will process them after a cooldown.
 This allows time for the cat to leave the litter box before time durations are calculated. 
 
-I am in the process for reworking the code to work with many boards and cats, which is nearly complete. 
-
 There is also an express server running, to allow GET requests to trigger certain test events. 
 
 # Google Sheets API
@@ -35,6 +33,5 @@ https://www.npmjs.com/package/google-spreadsheet
 
 
 # Tableau Public
-Tableau is a data analytis tool for many myriad purposes. I am using it in this project to display the data, and will be using it for more statistical analysis 
-down the road. You can view the public data associated with the project here:
+Tableau is a data analytics tool for many myriad purposes. I am using it in this project to display the data on a dashboard, and will be using it for more statistical analysis down the road. You can view the public data vizualization associated with the project here:
 https://public.tableau.com/views/CatTracker/Events?:language=en-US&:display_count=n&:origin=viz_share_link
