@@ -3,7 +3,7 @@ node_modules
 package-lock.json
 
 #Arduino secrets
-Arduino Sketch/wifimkr1000_sketch/arduino_secrets.h
+Arduino Sketch/SmartCats/arduino_secrets.h
 
 #Google secrets
 gCredentials.json
